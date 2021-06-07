@@ -1,0 +1,28 @@
+Iniciopar
+
+	var numero 
+	var numeroaleatorio
+	
+	
+		mientras i=1 hasta i=número; i= i+1 entonces
+	
+		numeroaleatorio=func aleatorio (min=1,max=100)
+	
+		var par
+		par=numero aleatorio mod2
+		
+			si (par=0) entonces
+			var j=0
+			var k=0
+				Escribir "El numero es impar"
+				j=j+1
+			
+			sino entonces
+				Escribir "El numero es par"
+				k=k+1
+			
+			Escribri "Hay k numeros pares y j numeros impares"
+			fin si
+		fin mientras 
+		
+fin
